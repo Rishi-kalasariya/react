@@ -3,6 +3,8 @@ import UserContext from "./Context";
 
 const ContextProvider = ({children}) => {
     const [user, setuser] = useState(null)
+    //like this you can also make API calls
+
 
     //childrens are components like div 
     //childrens that we are getting we are 
